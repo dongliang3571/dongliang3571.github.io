@@ -29,7 +29,9 @@ p.info{
 }
 
 img.projectimg{
-	width: 80%;
+	width: 100%;
+	border: 2px solid;
+  border-radius: 10px;
 }
 
 span.programming{
@@ -40,4 +42,37 @@ span.programming{
 
 p.programming{
 	padding-bottom: 5px;
+}
+
+div.popimage{
+	width: 80%;
+	height: 80%;
+	position: fixed;
+	top: 10%;
+	left: 10%;
+	background-size: cover;
+	border: 2px solid;
+  border-radius: 25px;
+	box-shadow: 10px 10px 10px #AFAFA8;
+	z-index: 10;
+
+}
+
+span.glyphicon{
+	float: right;
+	font-size: 3em;
+}
+
+a.close:link{
+	color: rgba(255,25,0,1);
+	text-decoration: none;
+}
+div.blackback{
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 9;
 }
