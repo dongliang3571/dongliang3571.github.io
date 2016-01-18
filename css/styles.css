@@ -76,3 +76,9 @@ div.blackback{
 	background-color: rgba(0, 0, 0, 0.5);
 	z-index: 9;
 }
+
+h2.projecttitle{
+	color: white;
+	background-color: black;
+	width: 13%;
+}
