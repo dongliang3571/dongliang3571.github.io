@@ -3,3 +3,41 @@ a.nav {
 	font-weight: bold;
 	font-size: 18px;
 }
+
+img.mypic{
+	width: 80%;
+	border: 2px solid;
+  border-radius: 25px;
+}
+
+span.selfintro{
+	font-size: 2em;
+	font-weight: bolder;
+}
+
+p.selfintro{
+	font-size: 1.5em;
+}
+
+span.info{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+p.info{
+	font-size: 1.3em;
+}
+
+img.projectimg{
+	width: 80%;
+}
+
+span.programming{
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 100px;
+}
+
+p.programming{
+	padding-bottom: 5px;
+}

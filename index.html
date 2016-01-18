@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width-device-width, inital-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="Dong Liang's Portfolio">
 	<meta name="description" content="Dong Liang's Portfolio">
 	<link rel="shortcut icon" type="image/x-icon" href="images/icon/icon.jpg">
@@ -10,42 +11,100 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link href='https://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script type="text/javascript" src="js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
 	<title>Dong Liang's Portfolio</title>
 </head>
 <body>
 
-	<nav class="navbar navbar-inverse">
+<div class="container">
+
+	<nav class="navbar navbar-default">
 		<div class ="container-fluid">
-		<div class="navbar-header">
-			<a href="#" class="navbar-brand">Dong Liang</a>
-			
 
-		</div>
+			<div class="navbar-header">
+				<a id="home" href="#" class="navbar-brand">Dong Liang</a>
+			</div>
 
-		<div>
+			<div>
 				<ul class="nav navbar-nav">
-					<li class="active"><a class="nav" href="#">Home</a></li>
-					<li><a class="nav" href="#">Project</a></li>
-					<li><a class="nav" href="#">About</a></li>
-
-					<li class="dropdown"><a href="#" class="dropdown-toggle nav" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-          				<ul class="dropdown-menu">
-				            <li><a href="#">Action</a></li>
-				            
-				            <li><a href="#">One more separated link</a></li>
-			          	</ul>
-        			</li>
+					<li><a class="nav" href="#home">Home</a></li>
+					<li><a class="nav" href="#project">Project</a></li>
 				</ul>
-		</div>
+			</div>
+
 		</div>
 	</nav>
-<div class="container">
-	
 
-	<a href="/projects">project</a>
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-4">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">My information</h3>
+					</div>
+					<div class="panel-body">
+						<img class="mypic" src="images/mypic.jpg"><br>
+						<p class="info"><span class="info">Email: </span>dongliang3571@gmail.com</p>
+						<p class="info"><span class="info">Github: </span><a href="https://github.com/dongliang3571">https://github.com/dongliang3571</a></p>
+				  </div>
+				</div>
+			</div>
+
+			<div class="col-md-8">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<h3 class="panel-title">Self-introduction</h3>
+					</div>
+					<div class="panel-body">
+						<p class="selfintro">Hi, my name is Dong Liang.
+							 A computer engineering student from <a href="https://www.ccny.cuny.edu/">The City College of the City University of New York.</a>
+							 Although I am a computer engineering student, but I treat myself more like a computer science student, I
+								love web development and has built several websites using Django, ruby on rails and Flask.</p>
+						<p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-8">
+				<div class="panel panel-primary">
+					<div class="panel-heading">
+						<h3 class="panel-title">Programming experience</h3>
+					</div>
+					<div class="panel-body">
+						<p class="programming"><span class="programming">Programming languages: </span>Python, C++/C, Ruby, Java, Javascript, HTML, CSS, Swift</p>
+						<p class="programming"><span class="programming">Web framework: </span>Django, Flask, Ruby on Rails, Node.js</p>
+						<p class="programming"><span class="programming">IDE: </span>Xcode, Qt
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<hr>
+
+		<div id="project" class="row">
+			<div class="col-md-12">
+				<h2>Projects:</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-8">
+				<p>Adventure Game</p>
+				<p>Github: <a>https://github.com/dongliang3571/Adventure-Game</a></p>
+			</div>
+			<div class="col-md-4">
+				<img class="projectimg" src="images/mypic.jpg">
+			</div>
+		</div>
+
+	</div>
+
+
 </div>
 
+<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
 </body>
 </html>
