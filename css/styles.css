@@ -78,7 +78,14 @@ div.blackback{
 }
 
 h2.projecttitle{
-	color: white;
-	background-color: black;
+	color: black;
 	width: 130px;
+}
+
+.pdfobject-container {
+    height: 500px;
+}
+
+.pdfobject {
+    border: 1px solid #666;
 }

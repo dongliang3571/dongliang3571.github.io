@@ -20,6 +20,6 @@ $(function(){
       });
 
     });
-
+    PDFObject.embed("resume.pdf", "#resume");
 
 });
